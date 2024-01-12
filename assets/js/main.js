@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded',()=>{
                 </div>
                 `;
             });
+        }).catch((error)=>{
+            console.log(error);
         });
     });
 })
