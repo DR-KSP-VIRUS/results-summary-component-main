@@ -65,7 +65,7 @@ body{
     justify-content: center;
     align-items: flex-start;
     background-color: var(--white);
-    box-shadow: 0 8px 10px #bcd9dba6, 0 12px 10px rgba(220, 234, 255, 0.829);
+    box-shadow: 0 8px 10px rgba(188, 217, 219, 0.651), 0 12px 10px rgba(220, 234, 255, 0.829);
     transition: all 0.54s linear;
 }
 
