@@ -8,7 +8,7 @@
 :root{
     /* primary colors */
     --light-red:hsl(0, 100%, 65%);
-    --very-light-red:hsla(0, 76%, 97%, 0.788);
+    --very-light-red:hsla(0, 100%, 95%, 0.788);
     --orangey-yellow:hsl(39,100%,56%);
     --light-orangey-yellow:hsla(42, 100%, 85%, 0.397);
     --green-teal:hsl(166,100%,37%);
@@ -21,6 +21,7 @@
     --light-royal-blue:hsl(241,81%, 54%);
     --violet-blue:hsla(241,72%,46%,1);
     --persian-blue:hsla(241,72%,46%,0);
+
     /* Neutral Colors */
     --white:hsl(0, 0%, 100%);
     --pale-blue:hsl(221,100%,96%);
@@ -42,7 +43,6 @@
     font-style: normal;
     src: url("../fonts/static/HankenGrotesk-Bold.ttf") format("truetype");
 }
-
 @font-face {
     font-family: 'HankenGrotesk-Medium';
     font-weight: 500;
@@ -50,7 +50,7 @@
     src: url("../fonts/static/HankenGrotesk-Medium.ttf") format("truetype");
 }
 
-body{
+main{
     background-color: var(--pale-blue);
     display: flex;
     justify-content: center;
@@ -114,7 +114,7 @@ body{
     color: var(--light-slate-blue);
 }
 
-.recomendation h3{
+.recomendation h2{
     font-family: 'HankenGrotesk-Medium';
     margin: .5rem;
     color: var(--pale-blue);
@@ -133,7 +133,7 @@ body{
     width: 100%;
     flex-direction: column;
     justify-content: center;
-    padding: 1rem;
+    padding: 1.2rem 1rem;
 }
 
 
@@ -144,35 +144,31 @@ body{
     margin-bottom: 1rem;
 }
 
-.summary .records{
+.records{
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-bottom: 1rem;
+    overflow: hidden;
 }
 
-.records .record{
+.record{
     display: flex;
     padding: .8rem;
     min-width: 100%;
-    justify-content: space-between;
 }
 .record figure{
     display: flex;
-    gap: 10px;
-}
-.record img {
-    flex: 0 0 auto;
-}
-
-.record .mark{
     flex: 1 1 0px;
+    gap: 10px;
 }
 
 .marks{
+    flex: 0 0 auto;
     color: var(--dark-gray-blue);
     font-family: 'HankenGrotesk-ExtraBold';
 }
+
 .marks .text-gray{
     color: var(--light-gray-blue);
     font-family: 'HankenGrotesk-Medium';
@@ -223,33 +219,22 @@ body{
 }
 
 @media screen and (min-width:1024px) {
-    body{
+    main{
         height: 100vh;
     }
     .card{
-        width: 100%;
         min-width: max-content;
         display: flex;
         flex-direction: row;
-        background-color: var(--white);
         border-radius: 20px;
     }
 
     .card .results{
-        background: linear-gradient(to bottom,var(--light-slate-blue), var(--violet-blue));
-        background-repeat: no-repeat;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem 2rem;
         border-radius: 20px;
-        color: var(--white);
         width: 480px;
     }
 
     .recomendation p{
         padding: 2rem 0;
-        text-align: center;
     }
 }

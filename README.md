@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     let category = document.getElementById("text");
     fetch('../../data.json').then((response)=>{
         response.json().then((data)=>{
-            data.forEach(element => {
+            data.map(element => {
                 category.innerHTML += `
                 <div class="record ${element.category}">
                     <figure>
