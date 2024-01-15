@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/DR-KSP-VIRUS/results-summary-component-main.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [on vercel](https://results-summary-component-main-liart.vercel.app/)
 
 ## My process
 
@@ -86,5 +86,5 @@ I want to dive into dynamic content development with `reactJs`
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [vercel app](https://results-summary-component-main-liart.vercel.app/)
 - Frontend Mentor - [@DR-KSP-VIRUS](https://www.frontendmentor.io/profile/DR-KSP-VIRUS)
