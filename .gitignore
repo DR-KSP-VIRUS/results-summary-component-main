@@ -15,5 +15,6 @@
 .DS_Store
 .prettierignore
 
-./README2.md
-./style-guide.md
+README2.md
+style-guide.md
+promise.js
