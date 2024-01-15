@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/DR-KSP-VIRUS/results-summary-component-main.git)
+- Solution URL: [on github](https://github.com/DR-KSP-VIRUS/results-summary-component-main.git)
 - Live Site URL: [on vercel](https://results-summary-component-main-liart.vercel.app/)
 
 ## My process
